@@ -6,7 +6,7 @@ This is a full-featured Fleet Management System developed using **Node.js**, **E
 
 ### ⚙️ Features
 
-* 🔐 Vendor, Driver, and Client login
+* 🔐 Admin, Vendor, Driver, and Client login
 * 📦 Vehicle & Driver management
 * 🗺️ Live trip tracking
 * 📅 Trip booking & history
