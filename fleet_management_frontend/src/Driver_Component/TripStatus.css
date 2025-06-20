@@ -1,0 +1,36 @@
+.trip-status-page {
+  padding: 2rem;
+  background: #fff;
+}
+
+.success {
+  color: green;
+}
+
+.error {
+  color: red;
+}
+
+.status-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.status-table th,
+.status-table td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.status-table th {
+  background: #274a94;
+  color: white;
+}
+
+.rating-label {
+  font-size: 15px;
+  font-weight: 500;
+  color: #555;
+  margin-top: 4px;
+}

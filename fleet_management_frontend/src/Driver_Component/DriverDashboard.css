@@ -1,0 +1,130 @@
+/* Driver Dashboard Styles */
+.dashboard-wrapper {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #ffffff; /* White background */
+  min-height: 100vh;
+  padding: 30px 20px;
+}
+
+/* Welcome Section */
+.welcome-text {
+  font-size: 32px;
+  font-weight: 700;
+  color: #1a3c74;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.welcome-text span {
+  color: #ff4d4d;
+}
+
+/* Dashboard Container */
+.dashboard-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Grid Layout */
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin-top: 20px;
+ 
+}
+
+/* Dashboard Card */
+.dashboard-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #1a3c74; /* Dark blue */
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  text-align: center;
+  height: 100%; /* Ensure all cards have the same height */
+}
+
+.dashboard-card h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #fff
+}
+
+.dashboard-card p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff; /* Soft light color for description */
+}
+
+.dashboard-card .highlight {
+  font-size: 24px;
+  color: #ff4d4d; /* Red highlight for earnings */
+  font-weight: bold;
+}
+
+.dashboard-card .trip-list {
+  list-style-type: none;
+  padding: 0;
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.dashboard-card .trip-list li {
+  margin: 10px 0;
+}
+
+/* Hover Effect for Dashboard Card */
+.dashboard-card:hover {
+  background-color: #274a94; /* Lighter blue on hover */
+  transform: scale(1.05);
+}
+
+/* Link Hover Effects */
+.dashboard-card-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.dashboard-card-link:hover .dashboard-card {
+  background-color: #274a94;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+  .dashboard-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+  }
+
+  .dashboard-card {
+    padding: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .dashboard-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .dashboard-card h3 {
+    font-size: 18px;
+  }
+
+  .dashboard-card p {
+    font-size: 14px;
+  }
+
+  .dashboard-card .highlight {
+    font-size: 20px;
+  }
+}

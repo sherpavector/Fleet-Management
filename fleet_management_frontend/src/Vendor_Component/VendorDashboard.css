@@ -1,0 +1,58 @@
+/* VendorDashboard.css */
+
+.vendor-dashboard {
+    padding: 20px;
+}
+
+.vendor-dashboard span{
+    color: #ff4d4d;
+}
+
+.summary-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1a3c74;
+    color: #ffffff;
+    padding: 5px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    text-align: center;
+    height: 100%;
+    text-decoration: none;
+}
+
+.card:hover {
+    background-color: #274a94;
+    transform: scale(1.05);
+}
+
+.card h3 {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: #ff4d4d;
+    border-bottom: 2px solid #fff;
+}
+
+.card p {
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    line-height: 1.5;
+    margin: 4px 0;
+}
+
+
+.card span {
+    color: #ff4d4d;
+}

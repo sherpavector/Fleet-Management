@@ -1,0 +1,70 @@
+.register-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f0f4f8;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .register-container h2 {
+    margin-bottom: 20px;
+    color: #1a3c74;
+    font-size: 28px;
+  }
+  
+  form {
+    background-color: #ffffff;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  form input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+  }
+  
+  form input:focus {
+    border-color: #1a3c74;
+    outline: none;
+  }
+  
+  form button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+    background-color: #1a3c74;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  form button:hover {
+    background-color: #274a94;
+  }
+  
+  .success {
+    color: green;
+    margin-top: 10px;
+    font-weight: 500;
+  }
+  
+  .error {
+    color: red;
+    margin-top: 10px;
+    font-weight: 500;
+  }
+  

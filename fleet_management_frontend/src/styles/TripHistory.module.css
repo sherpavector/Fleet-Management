@@ -1,0 +1,226 @@
+.container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+
+.header {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+.downloadButton {
+  background-color: #1a3c74;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.downloadButton:hover {
+  background-color: #274a94;
+}
+
+
+.cardsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+
+.card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  width: 300px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+
+.cardItem {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+
+.cardItem strong {
+  color: #1a3c74;
+}
+
+.filterContainer {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  justify-content: center;
+  margin-bottom: 1rem;
+ 
+  font-family: Arial, sans-serif;
+}
+
+.filterContainer label {
+  font-weight: 600;
+  color: #333;
+}
+
+.filterContainer select {
+  padding: 0.4rem 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #fff;
+  font-size: 1rem;
+  color: #333;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.filterContainer select:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.2);
+  outline: none;
+}
+
+
+@media (max-width: 768px) {
+  .container {
+    margin-left: 0;
+    padding: 10px;
+  }
+
+  .card {
+    width: 100%;
+  }
+}
+
+.tripTable {
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.tripTable th, .tripTable td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.tripTable th {
+  background-color: #274a94;
+  font-weight: bold;
+}
+
+.tripTable tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+.tripTable tr:hover {
+  background-color: #f1f1f1;
+}
+
+.viewButton{
+  background-color: #274a94;
+}
+
+.viewButton:hover{
+  background-color: #1a3c74;
+}
+
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.modalContent {
+  background: white;
+  padding: 20px 30px;
+  border-radius: 8px;
+  max-width: 500px;
+  width: 90%;
+  position: relative;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+.closeBtn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-weight: bold;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 18px;
+  color: red;
+}
+
+.downloadBtn {
+  background-color: #274a94;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.downloadBtn:hover {
+  background-color: #1a3c74;
+}
+
+.billButton {
+  margin-top: 10px;
+  padding: 8px 12px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.billButton:hover {
+  background-color: #45a049;
+}
+
+.modal {
+  background: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  max-width: 500px;
+  width: 90%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  max-height: 90vh;
+  overflow-y: auto;
+  position: relative;
+}

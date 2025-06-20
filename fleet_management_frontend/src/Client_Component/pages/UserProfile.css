@@ -1,0 +1,68 @@
+/* ClientProfile.css */
+
+.client-profile-container {
+  margin: auto;
+  padding: 20px;
+}
+
+.client-profile-container h2 {
+  text-align: center;
+  margin-bottom: 24px;
+  color: #333;
+}
+
+.client-profile-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 500px;
+  margin: auto;
+}
+
+.client-profile-form label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+  color: #555;
+}
+
+.client-profile-form input,
+.client-profile-form textarea {
+  margin-top: 6px;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1.5px solid #ccc;
+  border-radius: 4px;
+  transition: border-color 0.3s ease;
+}
+
+.client-profile-form input:focus,
+.client-profile-form textarea:focus {
+  border-color: #2b579a;
+  outline: none;
+}
+
+.client-profile-form textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.client-profile-form button {
+  padding: 12px;
+  background-color: #2b579a;
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.client-profile-form button:disabled {
+  background-color: #6c757d;
+  cursor: not-allowed;
+}
+
+.client-profile-form button:hover:not(:disabled) {
+  background-color: #1a3f78;
+}

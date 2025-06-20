@@ -1,0 +1,43 @@
+.trips-page {
+  padding: 2rem;
+  background: #fff;
+}
+
+.title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.trip-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: sans-serif;
+}
+
+.trip-table th {
+  background: #1a3c74;
+  color: white;
+  padding: 12px;
+  text-align: left;
+}
+
+.trip-table td {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.trip-table td strong {
+  font-weight: bold;
+}
+
+.pagination {
+  text-align: center;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+.tripButton{
+  margin: 10px;
+}

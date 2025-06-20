@@ -1,0 +1,220 @@
+.vehicleContainer,
+.priceContainer {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #0A1C64;
+    text-align: center;
+}
+
+.subHeading {
+    font-size: 22px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: #0A1C64;
+}
+
+/* Buttons */
+.button,
+.submitButton,
+.priceAddButton,
+.priceEditButton,
+.priceDeleteButton,
+.viewButton,
+.editButton,
+.deleteButton,
+.closeButton {
+    background-color: #1a3c74;
+    color: white;
+    border: none;
+    margin-right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    box-shadow: 0 2px 8px rgba(26, 60, 116, 0.15);
+}
+
+.button:hover,
+.submitButton:hover,
+.priceAddButton:hover {
+    background-color: #274a94;
+}
+
+/* Specific Hover Styles */
+.priceEditButton:hover {
+    background-color: #ffc107;
+    color: #1a1a1a;
+}
+
+.priceDeleteButton:hover,
+.closeButton:hover {
+    background-color: #dc3545;
+}
+
+.viewButton:hover {
+    background-color: #274a94;
+}
+
+.editButton:hover {
+    background-color: #ffc107;
+}
+
+.deleteButton:hover {
+    background-color: #dc3545;
+}
+
+/* Form Layout */
+.vehicleform,
+.priceForm {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 20px;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.06);
+}
+
+/* Input Fields */
+.inputGroup,
+.priceForm select,
+.priceForm input {
+    flex: 1 1 calc(30% - 1rem);
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.label {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.input {
+    padding: 0.7rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+/* Form Actions */
+.formActions {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+/* Tables */
+.vehicleTable,
+.priceTable {
+    margin: auto;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+}
+
+.vehicleTable th,
+.vehicleTable td,
+.priceTable th,
+.priceTable td {
+    border: 1px solid #ccc;
+    text-align: center;
+    font-size: 0.95rem;
+}
+
+.vehicleTable th,
+.priceTable thead {
+    background-color: #1a3c74;
+    color: white;
+    font-weight: bold;
+}
+
+/* Action Buttons */
+.actionButtons button {
+    margin-right: 5px;
+}
+
+/* Detail Box */
+.detailsBox {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 24px;
+    max-width: 900px;
+    margin: auto;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.detailsBox h3,
+.detailsBox h4 {
+    margin-bottom: 16px;
+    text-align: left;
+    color: #1a3c74;
+}
+
+.detailsGrid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.detailsGrid p {
+    flex: 1 1 calc(30% - 16px);
+    margin: 0;
+    text-align: left;
+    font-size: 0.95rem;
+}
+
+.priceList ul {
+    padding-left: 20px;
+    margin: 0 0 16px;
+}
+
+.priceList li {
+    margin-bottom: 8px;
+}
+
+/* Close Button */
+.closeButton {
+    margin: 2rem auto 0;
+    display: block;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+
+    .inputGroup,
+    .priceForm select,
+    .priceForm input,
+    .detailsGrid p {
+        flex: 1 1 100%;
+    }
+
+    table,
+    thead,
+    tbody,
+    th,
+    td,
+    tr {
+        font-size: 0.9rem;
+    }
+
+    .formActions {
+        flex-direction: column;
+        align-items: center;
+    }
+}

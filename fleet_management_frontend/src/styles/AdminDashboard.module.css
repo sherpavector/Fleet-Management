@@ -1,0 +1,57 @@
+/* AdminDashboard.module.css */
+
+.dashboardContainer {
+    padding: 20px;
+    background-color: #f5f7fa;
+    /* min-height: 100vh; */
+    margin-left: 400px;
+  }
+  
+  .title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+  }
+  
+  .adminContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .card {
+    background-color: #fff;
+    border-radius: 16px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.5);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    padding: 20px;
+    min-height: 150px;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.5);
+  }
+  
+  .cardContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .cardTitle {
+    font-size: 25px;
+    font-weight: 600;
+    margin: 0;
+    color: #555;
+  }
+  
+  .cardValue {
+    font-size: 28px;
+    font-weight: bold;
+    color: #222;
+    margin: 10px 0 0;
+  }
+  

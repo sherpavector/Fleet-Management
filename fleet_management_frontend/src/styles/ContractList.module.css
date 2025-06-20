@@ -1,0 +1,239 @@
+.mainContainer {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+.cardtitle {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.viewBtn,
+.editbtn,
+.deleteBtn {
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-right: 0.5rem;
+}
+
+.viewBtn {
+  background-color: #1a3c74;
+  color: white;
+  border: none;
+}
+
+.viewBtn:hover {
+  background-color: #274a94;
+}
+
+.contractButton {
+  display: flex;
+}
+
+.editbtn {
+  background-color: #1a3c74;
+  color: white;
+  border: none;
+}
+
+.editbtn:hover {
+  background-color: #e0a800;
+}
+
+.deleteBtn {
+  background-color: #1a3c74;
+  color: white;
+  border: none;
+}
+
+.deleteBtn:hover {
+  background-color: #c82333;
+}
+
+.contractTable {
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  border-collapse: collapse;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contractTable th,
+td {
+  font-size: 15px;
+  text-align: left;
+  padding: 0.8rem;
+  border-bottom: 2px solid #dee2e6;
+  word-wrap: break-word;
+  white-space: normal;
+  vertical-align: top;
+  text-align: center;
+}
+
+
+.contractTable th {
+  background-color: #1a3c74;
+  text-align: center;
+}
+
+
+.cardContainer {
+  gap: 1rem;
+  max-width: 100%;
+  text-align: center;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 10px;
+  font-family: Arial, sans-serif;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+.cardHeader {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #274a94;
+}
+
+.cancelledText {
+  text-align: center;
+  margin-bottom: 16px;
+  font-size: 24px;
+}
+
+.cardContent {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  color: #495057;
+}
+
+.rows {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: 1;
+  min-width: 50%;
+  font-size: 16px;
+}
+
+.column strong {
+  margin-right: 10px;
+}
+
+
+.editContract {
+  max-width: 1100px;
+  margin: 50px auto;
+  padding: 30px;
+}
+
+.addContract {
+  max-width: 1100px;
+  margin: auto;
+  padding: 30px;
+}
+
+.cardtitle {
+  color: #274a94;
+  text-align: center;
+}
+
+.inputbox {
+  width: 100%;
+  padding: 0.8rem;
+  border-radius: 0.5rem;
+  border: 1px solid #ced4da;
+  display: flex;
+  gap: 5px;
+  box-sizing: border-box;
+  flex: 1;
+}
+
+.inputbox:focus {
+  border-color: #274a94;
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-evenly;
+  flex: 1;
+  max-width: 1020px;
+  margin: auto;
+}
+
+.form label {
+  display: block;
+  margin-bottom: 1rem;
+  font-weight: 500;
+  margin: 5px;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-width: 20%;
+  margin-bottom: 10px;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-width: 30%;
+  margin-bottom: 10px;
+}
+
+.addBtn {
+  background-color: #1a3c74;
+  color: #fff;
+  width: 150px;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-left: 43%;
+}
+
+.saveBtn {
+  background-color: #1a3c74;
+  color: #fff;
+  width: 150px;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-left: 43%;
+}
+
+.addBtn:hover {
+  background-color: #274a94;
+}
+
+.saveBtn:hover {
+  background-color: #274a94;
+}

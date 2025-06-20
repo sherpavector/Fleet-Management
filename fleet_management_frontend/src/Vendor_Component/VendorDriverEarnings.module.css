@@ -1,0 +1,51 @@
+.container {
+  padding: 2rem;
+}
+.header {
+  font-size: 24px;
+  margin-bottom: 1rem;
+}
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.table th, .table td {
+  padding: 12px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+.payButton {
+  background-color: #274a94;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+.payButton:hover {
+  background-color: #1a3c74;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 15px;
+}
+
+.pagination button {
+  background-color: #274a94;
+  color: white;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.pagination button:hover{
+  background-color: #1a3c74;
+}
+
+.pagination button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}

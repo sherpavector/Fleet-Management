@@ -1,0 +1,84 @@
+.billing-history-container {
+  margin: 20px auto;
+  padding: 15px;
+  font-family: Arial, sans-serif;
+}
+
+
+.error {
+  color: red;
+  font-weight: bold;
+  margin: 15px;
+}
+
+button {
+  padding: 6px 10px;
+  background-color: #274a94;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1a3c74;
+}
+
+.billing-history-container {
+  padding: 20px;
+}
+
+.billing-history-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.billing-history-table th,
+.billing-history-table td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.billing-history-table th {
+  background-color: #274a94;
+}
+
+/* Popup styles */
+.popup-overlay {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw; height: 100vh;
+  background-color: rgba(0,0,0,0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.popup-content {
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  width: 700px;
+  max-height: 90vh;
+  overflow-y: auto;
+  box-shadow: 0 0 10px #00000050;
+  margin: 10px;
+}
+
+.popup-buttons {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+.printBill {
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  width: 500px;
+  margin: auto;
+  max-height: 90vh;
+  overflow-y: auto;
+  box-shadow: 0 0 10px #00000050;
+}

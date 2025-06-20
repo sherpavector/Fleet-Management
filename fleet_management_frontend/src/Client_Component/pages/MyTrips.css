@@ -1,0 +1,221 @@
+/* General Container */
+.my-trips-container {
+    margin: auto;
+    padding: 30px;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 30px;
+    color: #274a94;
+
+}
+
+.trip-section {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.trip-section h3 {
+    font-size: 22px;
+    color: #274a94;
+    margin-bottom: 20px;
+    display: flex;
+    text-align: center;
+    gap: 8px;
+}
+
+.bookingBtn{
+    background: #1a3c74;
+}
+
+.bookingBtn:hover{
+    background: #274a94;
+}
+
+.trips-table {
+    width: 100%;
+}
+
+/* Trip List Styling */
+.trip-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.trip-item {
+    background-color: #ffffff;
+    border-left: 6px solid #274a94;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+}
+
+.trip-item:hover {
+    transform: scale(1.01);
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.1);
+}
+
+/* Trip Details Text */
+.trip-item p {
+    margin: 6px 0;
+    font-size: 15.5px;
+    color: #374151;
+}
+
+/* Trip Type Highlight */
+.trip-item p strong {
+    font-weight: 600;
+}
+
+
+/* Empty Trip Message */
+.no-trips {
+    font-style: italic;
+    color: #6b7280;
+    background: #f3f4f6;
+    padding: 12px;
+    border-radius: 8px;
+}
+
+/* Trip Status Badge */
+.trip-item p:first-child {
+    font-weight: 600;
+}
+
+.trip-item p:first-child::before {
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.trip-item p:first-child:contains("Requested")::before {
+    background-color: #facc15;
+    /* Yellow */
+}
+
+.trip-item p:first-child:contains("Completed")::before {
+    background-color: #10b981;
+    /* Green */
+}
+
+.trip-item p:first-child:contains("Cancelled")::before {
+    background-color: #ef4444;
+    /* Red */
+}
+
+.payment-popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.payment-popup {
+    background: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.popup-actions {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.payment-popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.payment-popup {
+    background: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.popup-actions {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.pagination-controls {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.pagination-controls button {
+  padding: 5px 10px;
+  background-color: #274a94;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.pagination-controls button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.pagination-controls span {
+  font-weight: bold;
+}
+
+
+/* Responsive Layout */
+@media (max-width: 600px) {
+    .my-trips-container {
+        padding: 20px;
+        margin: 20px;
+    }
+
+    h2 {
+        font-size: 26px;
+    }
+
+    .trip-item {
+        padding: 16px;
+    }
+
+    .trip-item p {
+        font-size: 14px;
+    }
+}
+

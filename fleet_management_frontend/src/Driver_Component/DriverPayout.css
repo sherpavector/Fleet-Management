@@ -1,0 +1,87 @@
+.payout-container {
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 10px;
+  font-family: sans-serif;
+  max-width: 800px;
+  margin: auto;
+}
+
+.payout-container h2,
+.payout-container h3 {
+  text-align: center;
+  color: #274a94;
+  margin-bottom: 1.5rem;
+}
+
+.payout-container h4 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.payout-form {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 1.5rem;
+}
+
+.payout-form input {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 200px;
+}
+
+.payout-form button {
+  background-color: #274a94;
+  color: #fff;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.payout-form button:hover {
+  background-color: #1a3c74;
+}
+
+.success {
+  color: green;
+  text-align: center;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.error {
+  color: red;
+  text-align: center;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.payout-history {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.payout-history th {
+  background-color: #274a94;
+  color: white;
+  padding: 12px;
+  text-align: center;
+}
+
+.payout-history td {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.payout-history td:first-child {
+  font-weight: bold;
+}

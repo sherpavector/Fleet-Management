@@ -1,0 +1,85 @@
+/* Bookings.css */
+
+.confirm-booking {
+  max-width: 600px;
+  margin: 40px auto;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.confirm-booking h2 {
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+.confirm-booking p {
+  font-size: 16px;
+  margin: 10px 0;
+  color: #444;
+}
+
+.confirm-booking .form-group {
+  margin: 20px 0;
+}
+
+.confirm-booking label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #333;
+}
+
+.confirm-booking select {
+  width: 100%;
+  padding: 10px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #f9f9f9;
+  transition: border-color 0.3s;
+}
+
+.confirm-booking select:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.confirm-booking textarea {
+  width: 100%;
+  height: 100px;
+  margin-top: 10px;
+  padding: 12px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  resize: vertical;
+  background-color: #fefefe;
+  transition: border-color 0.3s;
+}
+
+.confirm-booking textarea:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.confirm-booking button {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #0a1e5e;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.confirm-booking button:hover {
+  background-color: #173a99;
+}

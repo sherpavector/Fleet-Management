@@ -1,0 +1,343 @@
+/* Add Driver */
+
+body {
+  height: 130vh;
+}
+
+.container {
+  width: 80%;
+  max-width: 700px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  padding: 2rem;
+  /* background-color: #f8f9fa; */
+  border-radius: 8px;
+  /* box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.5); */
+}
+
+.heading {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #495057;
+  margin-bottom: 20px;
+}
+
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 700px
+}
+
+.formgroup {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.formlabel {
+  font-weight: bold;
+  font-size: 1rem;
+  color: #495057;
+}
+
+.inputs {
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  outline: none;
+  transition: all 0.3s;
+}
+
+.inputs:focus {
+  border-color: #007bff;
+}
+
+.dateinputs {
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  outline: none;
+}
+
+.checkboxLabel {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  /* space between label text and checkbox */
+  font-size: 16px;
+}
+
+.checkBox {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+
+.addButton {
+  background-color: #1a3c74;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+  width: 250px;
+  margin: auto;
+}
+
+.addButton:hover {
+  background-color: #274a94;
+}
+
+.message {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 1rem;
+  color: #d9534f;
+}
+
+.message.success {
+  color: #5bc0de;
+}
+
+
+
+/* manage Driver */
+
+.manageDriversContainer {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+.heading {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.driverBtn {
+  background-color: #1a3c74;
+  color: #ffffff;
+  padding: 10px 20px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-left: 43%;
+}
+
+.driverBtn:hover {
+  background-color: #274a94;
+}
+
+.editedDriverBtn {
+  background-color: #1a3c74;
+  color: #ffffff;
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.editedDriverBtn:hover {
+  background-color: #274a94;
+}
+
+.cancelDriverBtn {
+  background-color: #f44336;
+  color: #ffffff;
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cancelDriverBtn:hover {
+  background-color: #d32f2f;
+}
+
+.driverContainer {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+.editForm {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+}
+
+.editformGroup {
+  margin-bottom: 15px;
+}
+
+.editformGroup label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.editformGroup input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 6px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.driverTable {
+  overflow-x: auto;
+  width: auto;
+  border-collapse: collapse;
+  table-layout: auto;
+  margin: auto;
+}
+
+.driverTable th,
+td {
+  border: 1px solid #dddddd;
+  text-align: center;
+  font-size: 15px;
+  white-space: wrap;
+}
+
+.driverTable th {
+  background-color: #1a3c74;
+  color: white;
+}
+
+.button {
+  background-color: #1a3c74;
+  color: white;
+  padding: 12px;
+  margin: 2px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #274a94;
+}
+
+.filterContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  font-family: Arial, sans-serif;
+}
+
+.filterContainer label {
+  font-weight: bold;
+}
+
+.filterContainer select {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+
+}
+
+
+@media (max-width: 768px) {
+  .manage-drivers-container {
+    margin-left: 0;
+    padding: 15px;
+  }
+
+  table,
+  th,
+  td {
+    font-size: 12px;
+  }
+
+  .heading {
+    font-size: 24px;
+  }
+}
+
+/* Assign Vehicle */
+.assignVehicleContainer {
+  width: 500px;
+  max-width: 700px;
+  margin: auto;
+  margin-top: 40px;
+  padding: 2rem;
+  background-color: #274a94;
+  border-radius: 10px;
+}
+
+.assignVehicleContainer h2{
+  color: #fff;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.assignButton {
+  background-color: #1a3c74;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+.assignButton:hover {
+  background-color: #274a94;
+}
+
+.assignLabel {
+  font-weight: bold;
+  font-size: 1rem;
+  color: #000;
+  text-align: center;
+}
+
+.assignOption {
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #000;
+  border-radius: 4px;
+  outline: none;
+  transition: all 0.3s;
+}
+
+.assignOption:focus {
+  border-color: #274a94;
+}

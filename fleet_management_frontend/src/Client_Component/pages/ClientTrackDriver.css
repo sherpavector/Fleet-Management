@@ -1,0 +1,53 @@
+/* ClientTrackDriver.css */
+
+.client-track-driver-container {
+  max-width: 700px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+.client-track-driver-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #2b579a;
+  font-weight: 600;
+}
+
+.client-track-driver-container p {
+  font-size: 1rem;
+  margin: 8px 0;
+}
+
+.client-track-driver-container strong {
+  color: #222;
+}
+
+.client-track-driver-container p.error-message {
+  color: red;
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.client-track-driver-container .leaflet-container {
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.15);
+  margin-top: 20px;
+}
+
+/* Responsive for small screens */
+@media (max-width: 480px) {
+  .client-track-driver-container {
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .client-track-driver-container p {
+    font-size: 0.9rem;
+  }
+}

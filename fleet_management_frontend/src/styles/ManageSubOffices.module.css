@@ -1,0 +1,135 @@
+.container {
+    padding: 1rem;
+    margin: 0 auto;
+}
+
+.heading {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #000;
+}
+
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-evenly;
+    max-width: 700px;
+    margin: auto;
+}
+
+.formGroup {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-width: 45%;
+    margin-bottom: 10px;
+}
+
+
+.form label {
+    display: block;
+    margin-bottom: 0.25rem;
+    font-weight: 500;
+}
+
+.form input,
+.form select {
+    width: 100%;
+    padding: 0.8rem;
+    border-radius: 0.5rem;
+    border: 1px solid #ced4da;
+    display: flex;
+    gap: 5px;
+    box-sizing: border-box;
+    flex: 1;
+}
+
+.submitBtn {
+    background-color: #1a3c74;
+    color: #ffffff;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 10px;
+}
+
+.submitBtn:hover {
+    background-color: #274a94;
+}
+
+.tableContainer {
+    overflow-x: auto;
+    margin-top: 20px;
+}
+
+.subofficetable {
+    width: 98%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    table-layout: fixed;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+th,
+td {
+    font-size: 15px;
+    text-align: left;
+    padding: 0.8rem;
+    border-bottom: 2px solid #dee2e6;
+    word-wrap: break-word;
+    white-space: normal;
+    vertical-align: top;
+    text-align: center;
+}
+
+
+th {
+    background-color: #1a3c74;
+    text-align: center;
+}
+
+.editBtn {
+    background-color: #1a3c74;
+    color: #ffffff;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 10px;
+}
+
+.deleteBtn {
+    background-color: #1a3c74;
+    color: #ffffff;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 10px;
+}
+
+.editBtn:hover {
+    background-color: #e0a800;
+}
+
+.deleteBtn:hover {
+    background-color: #c82333;
+}

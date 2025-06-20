@@ -1,0 +1,87 @@
+.container {
+  max-width: 600px;
+  margin: auto;
+  padding: 25px;
+}
+
+.heading {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 500px;
+}
+
+.label {
+  font-weight: 500;
+  color: #555;
+}
+
+.input,
+.select,
+.textarea {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.button {
+  padding: 12px;
+  font-size: 16px;
+  background-color: #274a94;
+  border: none;
+  color: white;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #1a3c74;
+}
+
+.sentMessages {
+  margin-top: 2rem;
+}
+
+.messageList {
+  list-style: none;
+  padding: 0;
+  color: #000;
+}
+
+.messageItem {
+  background: #274a94;
+  color: #fff;
+  border: 1px solid #ddd;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  max-width: 550px;
+}
+
+.messageItem h4{
+  font-size: 20px;
+  color: #ff4d4d;
+  text-align: center;
+}
+
+.messageItem p{
+  text-align: center;
+  color: #fff;
+}

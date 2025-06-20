@@ -1,0 +1,115 @@
+.documents-container {
+    padding: 20px;
+    font-family: 'Segoe UI', sans-serif;
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center child content horizontally */
+  }
+  
+  .documents-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #1a3c74;
+  }
+  
+  .upload-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 700px; /* Limit width for better centering */
+    box-sizing: border-box;
+    margin-bottom: 30px;
+  }
+  
+  .upload-form div {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .upload-form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .upload-form input,
+  .upload-form select {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .upload-form button {
+    grid-column: span 2;
+    padding: 10px;
+    background-color: #1a3c74;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .upload-form button:hover {
+    background-color: #16325c;
+  }
+  
+  .success {
+    color: green;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .error {
+    color: red;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .documents-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+  }
+  
+  .documents-table th,
+  .documents-table td {
+    border: 1px solid #ddd;
+    padding: 10px 12px;
+    text-align: left;
+  }
+  
+  .documents-table th {
+    background-color: #1a3c74;
+    color: white;
+    font-size: 14px;
+  }
+  
+  .documents-table td a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .documents-table td a:hover {
+    text-decoration: underline;
+  }
+  
+  @media (max-width: 768px) {
+    .upload-form {
+      grid-template-columns: 1fr;
+    }
+  
+    .upload-form button {
+      grid-column: span 1;
+    }
+  }
+  

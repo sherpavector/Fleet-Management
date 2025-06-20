@@ -1,0 +1,117 @@
+.profileContainer {
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 20px;
+  top: 210px;
+}
+
+.adminDetails {
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 30px;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.5);
+  width: 100%;
+  max-width: 300px;
+}
+
+h2 {
+  color: #2c3e50;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.profileInfo p {
+  font-size: 16px;
+  color: #555;
+  margin: 10px 0;
+  text-align: left;
+}
+
+.profileButton {
+  background-color: #1a3c74;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+.profileButton:hover {
+  background-color: #274a94;
+}
+
+.profileForm {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  max-width: 200px;
+}
+
+.label {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.input,
+.select {
+  padding: 10px;
+  margin-top: 6px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+  transition: border-color 0.3s;
+}
+
+.input:focus,
+.select:focus {
+  border-color: #4a90e2;
+  outline: none;
+}
+
+.saveButton {
+  background-color: #27ae60;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 10px;
+  /* margin-left: 10px; */
+  transition: background-color 0.3s ease;
+}
+
+.saveButton:hover {
+  background-color: #1e874b;
+}
+
+.cancelButton {
+  background-color: #e74c3c;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 10px;
+  /* margin-left: 10px; */
+  transition: background-color 0.3s ease;
+}
+
+.cancelButton:hover {
+  background-color: #c0392b;
+}
+
+  
+
+  

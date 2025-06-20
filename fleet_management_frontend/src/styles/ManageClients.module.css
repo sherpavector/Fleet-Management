@@ -1,0 +1,121 @@
+.mangecontainer {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+.heading {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.subHeading {
+  font-size: 22px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  color: #0A1C64;
+}
+
+.form{
+    max-width: 1020px;
+    margin: auto;
+}
+
+.inputbox,
+.textbox {
+    width: 450px;
+    margin: 10px;
+    border-radius: 6px;
+    font-size: 1rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid #000;
+    outline: none;
+    flex: 1;
+}
+
+.textbox {
+    resize: vertical;
+}
+
+.btnn {
+    background-color: #1a3c74;
+    color: #fff;
+    padding: 0.7rem 2rem;
+    border:2px solid #fff;
+    border-radius: 0.7rem;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    margin: auto;
+    max-width: 150px;
+    text-align: center;
+    display: flex;
+    transition: background-color 0.3s ease;
+}
+
+.btnn:hover {
+    background-color: #274a94;
+}
+
+.clientContainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    gap: 1rem;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 1rem;
+    border-left: 8px solid;
+    transition: all 0.3s ease;
+    border-left-color:#274a94;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);    
+}
+
+.card p{    
+    font-size: 15px;
+    text-align: left;
+    margin: 10px;
+}
+
+.card:hover {
+    transform: translateY(10px);
+}
+
+.card strong{
+    margin-right: 10px;
+}
+
+.editButton{
+    background-color: #1a3c74; 
+    color: #fff;
+    font-size: 16px;
+    border-radius: 0.7rem;
+    font-weight: 600;
+    width: 100px;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s ease;
+    border: none;
+    padding: 10px;
+}
+
+.editButton:hover{
+    background-color: #274a94;
+}
+
+.error {
+    color: red;
+    font-size: 0.85rem;
+    margin-top: -8px;
+    margin-bottom: 10px;
+}
+
+.row {
+    display: flex;
+    gap: 1rem; 
+  }
