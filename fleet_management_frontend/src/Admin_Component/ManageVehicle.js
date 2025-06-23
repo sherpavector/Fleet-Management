@@ -123,7 +123,9 @@ const VehicleManagement = () => {
     setViewDetailsVehicle(vehicle);
     try {
       const res = await axios.get(`http://localhost:5000/api/manage-pricelists`);
-      const matchedPrice = res.data.find(pl => pl.VehicleType === vehicle.TypeOfVehicle);
+      const matchedPrice = res.data.find(pl =>
+        pl.VehicleType === vehicle.TypeOfVehicle &&
+        pl.VendorID === vehicle.VendorID);
       setVehiclePriceList(matchedPrice);
     } catch (err) {
       console.error('Error fetching price list', err);
@@ -227,7 +229,11 @@ const VehicleManagement = () => {
               <p><strong>Make:</strong> {viewDetailsVehicle.VehicleMake}</p>
               <p><strong>Model:</strong> {viewDetailsVehicle.VehicleModel}</p>
               <p><strong>Number:</strong> {viewDetailsVehicle.VehicleNumber}</p>
-              <p><strong>Vendor ID:</strong> {viewDetailsVehicle.VendorID}</p>
+              <p>
+                <strong>Vendor:</strong> {viewDetailsVehicle.VendorID} - {
+                  vendors.find(v => v.VendorID === viewDetailsVehicle.VendorID)?.VendorName || 'Unknown'
+                }
+              </p>
               <p><strong>Fitness Expiry:</strong> {new Date(viewDetailsVehicle.FitnessCertificateExpiry).toLocaleDateString()}</p>
               <p><strong>RC Expiry:</strong> {new Date(viewDetailsVehicle.RCExpiryDate).toLocaleDateString()}</p>
               <p><strong>Tax Expiry:</strong> {new Date(viewDetailsVehicle.TaxExpiryDate).toLocaleDateString()}</p>
