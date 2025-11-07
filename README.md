@@ -24,32 +24,3 @@ This is a full-featured Fleet Management System developed using **Node.js**, **E
 | Backend  | Node.js, Express.js     |
 | Database | MySQL                   |
 
----
-
-### 🚀 How to Run Locally
-
-#### 1. Clone the repo:
-
-```bash
-git clone https://github.com/yourusername/Fleet-Management.git
-cd Fleet-Management
-```
-
-#### 2. Backend Setup:
-
-```bash
-cd backend
-npm install
-# create a .env file and configure DB & secrets
-node server.js
-```
-
-#### 3. Frontend Setup:
-
-```bash
-cd frontend
-npm install
-npm start
-```
-
----
